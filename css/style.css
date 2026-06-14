@@ -48,7 +48,16 @@ h6,
 .fw-medium {
     font-weight: 500 !important;
 }
+.logo{
+    height: 70px;
+    width: auto;
+}
 
+@media (max-width: 768px){
+    .logo{
+        height: 50px;
+    }
+}
 
 /*** Button ***/
 .btn {
